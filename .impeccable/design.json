@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-05T22:10:12.719232+00:00",
+  "title": "Design System: Docket",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0277 223.14)",
+          "oklch(27% 0.0277 223.14)",
+          "oklch(38% 0.0277 223.14)",
+          "oklch(50% 0.0277 223.14)",
+          "oklch(61% 0.0277 223.14)",
+          "oklch(73% 0.0277 223.14)",
+          "oklch(84% 0.0277 223.14)",
+          "oklch(95% 0.0277 223.14)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0245 223.40)",
+          "oklch(27% 0.0245 223.40)",
+          "oklch(38% 0.0245 223.40)",
+          "oklch(50% 0.0245 223.40)",
+          "oklch(61% 0.0245 223.40)",
+          "oklch(73% 0.0245 223.40)",
+          "oklch(84% 0.0245 223.40)",
+          "oklch(95% 0.0245 223.40)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0096 222.07)",
+          "oklch(27% 0.0096 222.07)",
+          "oklch(38% 0.0096 222.07)",
+          "oklch(50% 0.0096 222.07)",
+          "oklch(61% 0.0096 222.07)",
+          "oklch(73% 0.0096 222.07)",
+          "oklch(84% 0.0096 222.07)",
+          "oklch(95% 0.0096 222.07)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "tonalRamp": [
+          "oklch(15% 0.0045 214.33)",
+          "oklch(27% 0.0045 214.33)",
+          "oklch(38% 0.0045 214.33)",
+          "oklch(50% 0.0045 214.33)",
+          "oklch(61% 0.0045 214.33)",
+          "oklch(73% 0.0045 214.33)",
+          "oklch(84% 0.0045 214.33)",
+          "oklch(95% 0.0045 214.33)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "tonalRamp": [
+          "oklch(15% 0.0025 228.78)",
+          "oklch(27% 0.0025 228.78)",
+          "oklch(38% 0.0025 228.78)",
+          "oklch(50% 0.0025 228.78)",
+          "oklch(61% 0.0025 228.78)",
+          "oklch(73% 0.0025 228.78)",
+          "oklch(84% 0.0025 228.78)",
+          "oklch(95% 0.0025 228.78)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action",
+        "tonalRamp": [
+          "oklch(15% 0.0728 187.27)",
+          "oklch(27% 0.0728 187.27)",
+          "oklch(38% 0.0728 187.27)",
+          "oklch(50% 0.0728 187.27)",
+          "oklch(61% 0.0728 187.27)",
+          "oklch(73% 0.0728 187.27)",
+          "oklch(84% 0.0728 187.27)",
+          "oklch(95% 0.0728 187.27)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0601 186.84)",
+          "oklch(27% 0.0601 186.84)",
+          "oklch(38% 0.0601 186.84)",
+          "oklch(50% 0.0601 186.84)",
+          "oklch(61% 0.0601 186.84)",
+          "oklch(73% 0.0601 186.84)",
+          "oklch(84% 0.0601 186.84)",
+          "oklch(95% 0.0601 186.84)"
+        ]
+      },
+      "selected": {
+        "role": "primary",
+        "displayName": "Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0144 180.70)",
+          "oklch(27% 0.0144 180.70)",
+          "oklch(38% 0.0144 180.70)",
+          "oklch(50% 0.0144 180.70)",
+          "oklch(61% 0.0144 180.70)",
+          "oklch(73% 0.0144 180.70)",
+          "oklch(84% 0.0144 180.70)",
+          "oklch(95% 0.0144 180.70)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "tonalRamp": [
+          "oklch(15% 0.0200 217.27)",
+          "oklch(27% 0.0200 217.27)",
+          "oklch(38% 0.0200 217.27)",
+          "oklch(50% 0.0200 217.27)",
+          "oklch(61% 0.0200 217.27)",
+          "oklch(73% 0.0200 217.27)",
+          "oklch(84% 0.0200 217.27)",
+          "oklch(95% 0.0200 217.27)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15% 0.1160 242.26)",
+          "oklch(27% 0.1160 242.26)",
+          "oklch(38% 0.1160 242.26)",
+          "oklch(50% 0.1160 242.26)",
+          "oklch(61% 0.1160 242.26)",
+          "oklch(73% 0.1160 242.26)",
+          "oklch(84% 0.1160 242.26)",
+          "oklch(95% 0.1160 242.26)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "Warning",
+        "tonalRamp": [
+          "oklch(15% 0.1037 59.04)",
+          "oklch(27% 0.1037 59.04)",
+          "oklch(38% 0.1037 59.04)",
+          "oklch(50% 0.1037 59.04)",
+          "oklch(61% 0.1037 59.04)",
+          "oklch(73% 0.1037 59.04)",
+          "oklch(84% 0.1037 59.04)",
+          "oklch(95% 0.1037 59.04)"
+        ]
+      },
+      "warning-bg": {
+        "role": "secondary",
+        "displayName": "Warning Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0214 76.54)",
+          "oklch(27% 0.0214 76.54)",
+          "oklch(38% 0.0214 76.54)",
+          "oklch(50% 0.0214 76.54)",
+          "oklch(61% 0.0214 76.54)",
+          "oklch(73% 0.0214 76.54)",
+          "oklch(84% 0.0214 76.54)",
+          "oklch(95% 0.0214 76.54)"
+        ]
+      },
+      "warning-border": {
+        "role": "secondary",
+        "displayName": "Warning Border",
+        "tonalRamp": [
+          "oklch(15% 0.0448 73.81)",
+          "oklch(27% 0.0448 73.81)",
+          "oklch(38% 0.0448 73.81)",
+          "oklch(50% 0.0448 73.81)",
+          "oklch(61% 0.0448 73.81)",
+          "oklch(73% 0.0448 73.81)",
+          "oklch(84% 0.0448 73.81)",
+          "oklch(95% 0.0448 73.81)"
+        ]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15% 0.1545 20.19)",
+          "oklch(27% 0.1545 20.19)",
+          "oklch(38% 0.1545 20.19)",
+          "oklch(50% 0.1545 20.19)",
+          "oklch(61% 0.1545 20.19)",
+          "oklch(73% 0.1545 20.19)",
+          "oklch(84% 0.1545 20.19)",
+          "oklch(95% 0.1545 20.19)"
+        ]
+      },
+      "error-bg": {
+        "role": "secondary",
+        "displayName": "Error Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0163 12.78)",
+          "oklch(27% 0.0163 12.78)",
+          "oklch(38% 0.0163 12.78)",
+          "oklch(50% 0.0163 12.78)",
+          "oklch(61% 0.0163 12.78)",
+          "oklch(73% 0.0163 12.78)",
+          "oklch(84% 0.0163 12.78)",
+          "oklch(95% 0.0163 12.78)"
+        ]
+      },
+      "error-border": {
+        "role": "secondary",
+        "displayName": "Error Border",
+        "tonalRamp": [
+          "oklch(15% 0.0389 9.91)",
+          "oklch(27% 0.0389 9.91)",
+          "oklch(38% 0.0389 9.91)",
+          "oklch(50% 0.0389 9.91)",
+          "oklch(61% 0.0389 9.91)",
+          "oklch(73% 0.0389 9.91)",
+          "oklch(84% 0.0389 9.91)",
+          "oklch(95% 0.0389 9.91)"
+        ]
+      },
+      "success": {
+        "role": "secondary",
+        "displayName": "Success",
+        "tonalRamp": [
+          "oklch(15% 0.0800 158.47)",
+          "oklch(27% 0.0800 158.47)",
+          "oklch(38% 0.0800 158.47)",
+          "oklch(50% 0.0800 158.47)",
+          "oklch(61% 0.0800 158.47)",
+          "oklch(73% 0.0800 158.47)",
+          "oklch(84% 0.0800 158.47)",
+          "oklch(95% 0.0800 158.47)"
+        ]
+      },
+      "success-bg": {
+        "role": "secondary",
+        "displayName": "Success Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0150 164.73)",
+          "oklch(27% 0.0150 164.73)",
+          "oklch(38% 0.0150 164.73)",
+          "oklch(50% 0.0150 164.73)",
+          "oklch(61% 0.0150 164.73)",
+          "oklch(73% 0.0150 164.73)",
+          "oklch(84% 0.0150 164.73)",
+          "oklch(95% 0.0150 164.73)"
+        ]
+      },
+      "success-border": {
+        "role": "secondary",
+        "displayName": "Success Border",
+        "tonalRamp": [
+          "oklch(15% 0.0346 157.52)",
+          "oklch(27% 0.0346 157.52)",
+          "oklch(38% 0.0346 157.52)",
+          "oklch(50% 0.0346 157.52)",
+          "oklch(61% 0.0346 157.52)",
+          "oklch(73% 0.0346 157.52)",
+          "oklch(84% 0.0346 157.52)",
+          "oklch(95% 0.0346 157.52)"
+        ]
+      },
+      "notice-bg": {
+        "role": "secondary",
+        "displayName": "Notice Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0143 169.24)",
+          "oklch(27% 0.0143 169.24)",
+          "oklch(38% 0.0143 169.24)",
+          "oklch(50% 0.0143 169.24)",
+          "oklch(61% 0.0143 169.24)",
+          "oklch(73% 0.0143 169.24)",
+          "oklch(84% 0.0143 169.24)",
+          "oklch(95% 0.0143 169.24)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Record heading",
+        "purpose": "Selected record title."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Invoice and evidence section headings."
+      },
+      "body": {
+        "displayName": "Working text",
+        "purpose": "Amounts, descriptions and ordinary controls."
+      },
+      "label": {
+        "displayName": "Field label",
+        "purpose": "Visible form labels."
+      },
+      "code": {
+        "displayName": "Evidence identifier",
+        "purpose": "Transaction hashes and invoice commitments."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-background",
+        "value": "background .16s ease-out",
+        "purpose": "Direct button state response."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition:none!important;scroll-behavior:auto!important",
+        "purpose": "Applied under prefers-reduced-motion:reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "stacked-mobile",
+        "value": "760px"
+      }
+    ],
+    "focus": {
+      "value": "3px solid #2479b0",
+      "offset": "3px",
+      "purpose": "Visible keyboard location on controls and focusable response messages."
+    },
+    "tonalRampNote": "Synthesized OKLCH previews hold source hue and chroma while stepping lightness; these are panel aids, not additional implemented palette tokens.",
+    "sourceEvidence": [
+      "web/style.css",
+      "web/app.js",
+      "web/index.html",
+      "docs/direction.md",
+      "../../artifacts/buidl-ctc-2026-fall/23/design-verdict.md"
+    ],
+    "verificationScope": "Existing final desktop, mobile and inline-error screenshots inspected. No new browser pass, runtime edit or deployment certification."
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Implemented primary action treatment.",
+      "html": "<button class=\"ds-button-primary\">Check source receipt</button>",
+      "css": ".ds-button-primary{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;border:1px solid var(--control-border,#aebfc4);border-radius:var(--radius,6px);padding:10px 15px;font-weight:600;cursor:pointer;transition:background .16s ease-out;background:var(--action,#17655f);border-color:var(--action,#17655f);color:white;}.ds-button-primary:active{background:var(--selected,#e1eeeb)}.ds-button-primary:hover{background:#104d48}.ds-button-primary:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}.ds-button-primary:disabled{opacity:.55;cursor:wait}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Implemented secondary action treatment.",
+      "html": "<button class=\"ds-button-secondary\">Save review</button>",
+      "css": ".ds-button-secondary{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;border:1px solid var(--control-border,#aebfc4);border-radius:var(--radius,6px);padding:10px 15px;font-weight:600;cursor:pointer;transition:background .16s ease-out;background:var(--paper,#fff);color:var(--ink,#1d3037);}.ds-button-secondary:active{background:var(--selected,#e1eeeb)}.ds-button-secondary:hover{background:var(--rail,#f0f4f5)}.ds-button-secondary:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}.ds-button-secondary:disabled{opacity:.55;cursor:wait}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
+    },
+    {
+      "name": "Quiet button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Implemented quiet action treatment.",
+      "html": "<button class=\"ds-button-quiet\">Cancel</button>",
+      "css": ".ds-button-quiet{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;border:1px solid var(--control-border,#aebfc4);border-radius:var(--radius,6px);padding:10px 15px;font-weight:600;cursor:pointer;transition:background .16s ease-out;background:transparent;border-color:transparent;color:var(--action,#17655f);}.ds-button-quiet:active{background:var(--selected,#e1eeeb)}.ds-button-quiet:hover{background:var(--rail,#f0f4f5)}.ds-button-quiet:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}.ds-button-quiet:disabled{opacity:.55;cursor:wait}@media(prefers-reduced-motion:reduce){.ds-button-quiet{transition:none}}"
+    },
+    {
+      "name": "Labelled text field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Visible label, muted placeholder and explicit focus.",
+      "html": "<label class=\"ds-label\">Invoice reference<input class=\"ds-input\" placeholder=\"INV-024\"></label>",
+      "css": ".ds-label{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;display:block;color:var(--ink,#1d3037);font-size:.88rem;font-weight:500}.ds-input{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;display:block;width:100%;min-height:43px;padding:10px 11px;margin-top:6px;background:white;color:var(--ink,#1d3037);border:1px solid #aebfc4;border-radius:var(--radius,6px)}.ds-input::placeholder{color:var(--muted,#53656c)}.ds-input:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}"
+    },
+    {
+      "name": "Selected record navigation",
+      "kind": "nav",
+      "refersTo": "record-row-selected",
+      "description": "Payee, reference and review state inside the selected navigation row.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Records\"><button class=\"ds-record\" aria-pressed=\"true\"><strong>Example payee</strong><span class=\"ds-reference\">INV-024</span><span class=\"ds-state\">Not reviewed</span></button></nav>",
+      "css": ".ds-rail{background:var(--rail,#f0f4f5);padding:20px}.ds-record{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;display:block;width:100%;text-align:left;background:transparent;color:var(--ink,#1d3037);border:0;border-radius:var(--radius,6px);padding:15px 13px;cursor:pointer;transition:background .16s ease-out}.ds-record:hover{background:var(--rail,#f0f4f5)}.ds-record[aria-pressed=true],.ds-record:active{background:var(--selected,#e1eeeb)}.ds-record strong,.ds-record span{display:block;overflow-wrap:anywhere}.ds-record strong{font-size:.92rem;font-weight:600}.ds-reference{font-size:.78rem;color:var(--muted,#53656c);margin:3px 0 8px}.ds-state{font-size:.8rem;font-weight:500}.ds-record:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-record{transition:none}}"
+    },
+    {
+      "name": "Evidence status tags",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Noninteractive status labels use words alongside semantic color.",
+      "html": "<span class=\"ds-tag\">Not checked</span> <span class=\"ds-tag ds-good\">Matches invoice</span> <span class=\"ds-tag ds-wait\">Pending</span> <span class=\"ds-tag ds-bad\">Call failed</span>",
+      "css": ".ds-tag{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;white-space:nowrap;display:inline-block;font-size:.78rem;padding:4px 9px;border:1px solid var(--line,#d8e0e3);border-radius:4px;background:var(--rail,#f0f4f5);color:var(--ink,#1d3037);font-weight:500}.ds-good{background:#e7f3ed;color:#225e40;border-color:#bcd5c5}.ds-wait{background:var(--warning-bg,#fff5e7);color:var(--warning,#8b5018);border-color:#e6d0b4}.ds-bad{background:var(--error-bg,#fff0f1);color:var(--error,#a42d38);border-color:#e8c6ca}"
+    },
+    {
+      "name": "Review sheet",
+      "kind": "card",
+      "refersTo": "review-sheet",
+      "description": "Continuous white working surface with ruled evidence sections.",
+      "html": "<section class=\"ds-sheet\"><h2>Invoice expectation</h2><p>Illustrative invoice expectation for interface reference.</p><dl><dt>Expected</dt><dd>0.025 ETH</dd><dt>Source</dt><dd>Ethereum Sepolia</dd></dl></section>",
+      "css": ".ds-sheet{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;background:var(--paper,#fff);color:var(--ink,#1d3037);padding:34px 42px;border-bottom:1px solid var(--line,#d8e0e3)}.ds-sheet h2{font-size:1.1rem;font-weight:600;margin:0 0 12px}.ds-sheet p{max-width:72ch}.ds-sheet dl{display:grid;grid-template-columns:130px minmax(0,1fr);gap:9px 20px;margin:20px 0 0}.ds-sheet dt{font-size:.88rem;color:var(--muted,#53656c)}.ds-sheet dd{margin:0;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}@media(max-width:1050px){.ds-sheet{padding:30px 28px}}@media(max-width:760px){.ds-sheet{padding:28px 20px}.ds-sheet dl{grid-template-columns:95px minmax(0,1fr);gap:10px 15px}}"
+    },
+    {
+      "name": "Focused inline error",
+      "kind": "custom",
+      "refersTo": "inline-error",
+      "description": "Action-adjacent alert retains task context after a rejected save.",
+      "html": "<p class=\"ds-error\" role=\"alert\" tabindex=\"-1\">Check the source receipt, payment match and real inclusion proof before marking reviewed.</p>",
+      "css": ".ds-error{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;max-width:72ch;padding:14px 18px;border-radius:var(--radius,6px);background:var(--error-bg,#fff0f1);color:var(--error,#a42d38);font-size:.88rem;margin:0 0 24px}.ds-error:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}"
+    },
+    {
+      "name": "Evidence disclosure",
+      "kind": "custom",
+      "description": "Native expandable details keep long evidence secondary and accessible.",
+      "html": "<details class=\"ds-details\"><summary class=\"ds-summary\">Transaction and invoice fingerprint</summary><p>Long transaction identifiers and invoice commitments appear here.</p></details>",
+      "css": ".ds-details{font-family:Public Sans,system-ui,sans-serif;font-size:15px;line-height:1.55;margin-top:18px}.ds-summary{cursor:pointer;color:var(--action,#17655f);font-weight:500;font-size:.87rem;padding:8px 0}.ds-summary:focus-visible{outline:3px solid var(--focus,#2479b0);outline-offset:3px}.ds-details p{font-size:.86rem;color:var(--muted,#53656c);max-width:72ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Private Review Desk",
+    "overview": "A private working desk: mist surfaces hold navigation, white surfaces hold the evidence, and deep teal identifies useful actions. Public Sans gives amounts, labels and review notes a consistent, practical voice. Whitespace and thin dividers distinguish tasks without decorative cards or illustrations.\n\nThe visual character is professional, restrained and precise. Plain language accompanies every semantic color; pending, failed and verified states remain readable without interpreting color. This documents the implemented system, using the delegated direction rather than introducing a new identity.",
+    "keyCharacteristics": [
+      "White working surfaces and cool mist navigation.",
+      "Compact, readable type with exact amounts and wrapping identifiers.",
+      "Thin borders and tonal grouping, with no shadows.",
+      "Visible labels, strong keyboard focus and feedback beside the action."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Words Rule",
+        "body": "Color supports a named state; it never substitutes for one.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use tonal surfaces and dividers to organize work; do not add floating-card elevation to this system.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep evidence states explicit in words as well as color.",
+      "Do keep one primary next action within each workflow stage.",
+      "Do retain drafts through navigation and network checks, and focus feedback near the action.",
+      "Do keep synthetic examples visibly labelled and separate from live evidence.",
+      "Do use visible field labels and the same muted ink for placeholders and supporting text."
+    ],
+    "donts": [
+      "Don't use gradients, glows, decorative metrics, hype or generic AI decoration.",
+      "Don't imply that inclusion proves payment or that read-only verification publishes a registry record.",
+      "Don't hide a failed save only in a page-top notice.",
+      "Don't add remote font requests or imagery without a concrete task need."
+    ]
+  }
+}
