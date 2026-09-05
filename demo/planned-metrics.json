@@ -1,0 +1,16 @@
+{
+  "measured_from": "storyboard only, not recorded video",
+  "comparison": "Same scenes and holds; shorter captions only.",
+  "results": {
+    "baseline": {
+      "planned_hold_seconds": 49.0,
+      "peak_caption_cps": 34.0,
+      "captions_over_17_cps": 9
+    },
+    "candidate": {
+      "planned_hold_seconds": 49.0,
+      "peak_caption_cps": 12.67,
+      "captions_over_17_cps": 0
+    }
+  }
+}

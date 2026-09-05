@@ -1,0 +1,54 @@
+{
+  "name": "Docket evidence review",
+  "url": "http://127.0.0.1:4323",
+  "planned_only": true,
+  "target_seconds": 120,
+  "target_basis": "Working target; saved event requirements specify a video but no numeric duration limit.",
+  "steps": [
+    {
+      "target": "Invoice expectation",
+      "caption": "This example uses a real Sepolia transfer and an illustrative invoice.",
+      "hold_ms": 6500
+    },
+    {
+      "target": "Transaction and invoice fingerprint",
+      "caption": "The invoice stays private. A salted fingerprint identifies it.",
+      "hold_ms": 5000
+    },
+    {
+      "target": "Source receipt",
+      "caption": "Check the receipt and compare the exact recipient and amount.",
+      "hold_ms": 5500
+    },
+    {
+      "target": "Attestcoin inclusion",
+      "caption": "Attestcoin checks inclusion on Creditcoin. No wallet is needed for this call.",
+      "hold_ms": 6500
+    },
+    {
+      "target": "Attestcoin inclusion",
+      "caption": "A verified inclusion is separate from a matching payment.",
+      "hold_ms": 4500
+    },
+    {
+      "target": "Reviewer note",
+      "caption": "Save what was checked, and what still needs attention.",
+      "hold_ms": 4500
+    },
+    {
+      "target": "Share the evidence",
+      "caption": "The public export leaves out invoice text, the salt and review notes.",
+      "hold_ms": 6000
+    },
+    {
+      "target": "Private bundle and activity",
+      "caption": "Share the private bundle only with the reviewer who needs it.",
+      "hold_ms": 5000
+    },
+    {
+      "target": "Public registry status",
+      "caption": "The registry write is shown separately from read-only verification.",
+      "hold_ms": 5500
+    }
+  ]
+}
