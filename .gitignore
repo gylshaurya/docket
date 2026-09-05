@@ -1,0 +1,14 @@
+node_modules/
+.local/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+out/
+cache/
+broadcast/
+*.log
+SELECTED-IDEA.json
+PREPARATION.md
+docs/direction.md

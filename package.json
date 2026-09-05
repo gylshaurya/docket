@@ -1,0 +1,22 @@
+{
+  "name": "docket",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Review cross-chain invoice evidence without confusing inclusion with payment.",
+  "scripts": {
+    "start": "python3 scripts/service.py start",
+    "stop": "python3 scripts/service.py stop",
+    "dev": "python3 server.py",
+    "test": "python3 -m unittest discover -s tests -v",
+    "test:sdk": "node --test tests/*.test.mjs",
+    "test:contracts": "forge test",
+    "probe": "node scripts/probe.mjs"
+  },
+  "dependencies": {
+    "@fontsource/public-sans": "5.2.6",
+    "@gluwa/usc-contracts": "0.1.2",
+    "@gluwa/usc-sdk": "0.18.0",
+    "ethers": "6.17.0"
+  }
+}
