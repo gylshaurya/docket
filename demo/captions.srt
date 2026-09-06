@@ -1,0 +1,78 @@
+1
+00:00:00,000 --> 00:00:07,036
+Docket keeps invoice expectations and payment evidence in one review desk.
+
+2
+00:00:07,036 --> 00:00:14,163
+This is a real Sepolia transfer with an illustrative invoice, not customer
+work.
+
+3
+00:00:14,163 --> 00:00:21,344
+The expected recipient and exact amount stay beside the source
+transaction.
+
+4
+00:00:21,344 --> 00:00:28,466
+A random salt keeps the invoice fingerprint from revealing private
+details.
+
+5
+00:00:28,466 --> 00:00:37,020
+First, read the source receipt and compare the transfer with the
+expectation.
+
+6
+00:00:37,020 --> 00:00:44,689
+The call succeeded and the recipient and amount match. Inclusion is still
+unchecked.
+
+7
+00:00:44,689 --> 00:00:55,784
+Now Attestcoin builds a proof and Creditcoin checks transaction inclusion.
+
+8
+00:00:55,784 --> 00:01:03,507
+Inclusion is verified. It is separate from payment matching and invoice
+ownership.
+
+9
+00:01:03,507 --> 00:01:11,552
+A public registry write is a separate step. It is still waiting for free
+testnet gas.
+
+10
+00:01:11,552 --> 00:01:18,584
+Leave a note describing exactly what the evidence supports.
+
+11
+00:01:18,584 --> 00:01:26,140
+Reviewed requires a successful receipt, an exact transfer match and real
+inclusion.
+
+12
+00:01:26,140 --> 00:01:33,177
+Save the decision with its note so the next review has context.
+
+13
+00:01:33,177 --> 00:01:40,733
+The public export leaves out invoice text, the salt and reviewer notes.
+
+14
+00:01:40,733 --> 00:01:48,300
+A separate private bundle is for a chosen reviewer or your own backup.
+
+15
+00:01:48,300 --> 00:01:55,531
+Earlier network checks stay in the export. A new check does not rewrite
+them.
+
+16
+00:01:55,531 --> 00:02:03,178
+The saved record survives a reload. The private data stays in this
+browser.
+
+17
+00:02:03,178 --> 00:02:10,303
+Docket makes the evidence clear before a team marks a payment record
+reviewed.

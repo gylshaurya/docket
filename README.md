@@ -55,4 +55,8 @@ A real public Sepolia transfer was checked during development, including an actu
 
 Local invoice data is private application data, not encrypted storage. OS account access still controls who can read the database. No private signing keys are accepted by the workspace. The public browser version can request an external wallet signature only after its registry deployment is configured and verified. Runtime credentials, if later needed for a source RPC, belong in an existing secret store or an ignored environment, never in Git or a public export. The default public endpoints require no key. Provider availability and testnet data retention may change.
 
-This hackathon prototype has not had an independent security audit. The public browser app is available without a backend. Registry deployment still needs free CC3 testnet gas; no registry publication is claimed. The final recorded demo and submission approval remain pending.
+This hackathon prototype has not had an independent security audit. The public browser app is available without a backend. Registry deployment still needs free CC3 testnet gas; no registry publication is claimed. The captions-only recording shows the real public browser workflow and explicitly shows the pending registry deployment. Final submission approval remains pending.
+
+## Demo
+
+[Watch or download the recorded demo](https://github.com/gylshaurya/docket/releases/tag/demo-v1). The 130.3-second recording uses the actual public app, including a real source receipt, matching transfer and native CC3 inclusion call. It shows the registry gas limitation. Captions are included; there is no narration.

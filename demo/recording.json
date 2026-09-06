@@ -1,0 +1,130 @@
+{
+  "source": "Real selected-browser tab screenshots during actual UI actions",
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 7.036,
+      "caption": "Docket keeps invoice expectations and payment evidence in one review desk.",
+      "cps": 10.517339397384879
+    },
+    {
+      "id": 2,
+      "start": 7.036,
+      "end": 14.163,
+      "caption": "This is a real Sepolia transfer with an illustrative invoice, not customer work.",
+      "cps": 11.22491932089238
+    },
+    {
+      "id": 3,
+      "start": 14.163,
+      "end": 21.343999999999998,
+      "caption": "The expected recipient and exact amount stay beside the source transaction.",
+      "cps": 10.444227823422926
+    },
+    {
+      "id": 4,
+      "start": 21.343999999999998,
+      "end": 28.466,
+      "caption": "A random salt keeps the invoice fingerprint from revealing private details.",
+      "cps": 10.530749789384998
+    },
+    {
+      "id": 5,
+      "start": 28.466,
+      "end": 37.02,
+      "caption": "First, read the source receipt and compare the transfer with the expectation.",
+      "cps": 9.001636661211126
+    },
+    {
+      "id": 6,
+      "start": 37.02,
+      "end": 44.68900000000001,
+      "caption": "The call succeeded and the recipient and amount match. Inclusion is still unchecked.",
+      "cps": 10.953188160125174
+    },
+    {
+      "id": 7,
+      "start": 44.68900000000001,
+      "end": 55.784000000000006,
+      "caption": "Now Attestcoin builds a proof and Creditcoin checks transaction inclusion.",
+      "cps": 6.6696710229833265
+    },
+    {
+      "id": 8,
+      "start": 55.784000000000006,
+      "end": 63.507000000000005,
+      "caption": "Inclusion is verified. It is separate from payment matching and invoice ownership.",
+      "cps": 10.617635633821056
+    },
+    {
+      "id": 9,
+      "start": 63.507000000000005,
+      "end": 71.552,
+      "caption": "A public registry write is a separate step. It is still waiting for free testnet gas.",
+      "cps": 10.565568676196394
+    },
+    {
+      "id": 10,
+      "start": 71.552,
+      "end": 78.584,
+      "caption": "Leave a note describing exactly what the evidence supports.",
+      "cps": 8.390216154721278
+    },
+    {
+      "id": 11,
+      "start": 78.584,
+      "end": 86.14,
+      "caption": "Reviewed requires a successful receipt, an exact transfer match and real inclusion.",
+      "cps": 10.9846479618846
+    },
+    {
+      "id": 12,
+      "start": 86.14,
+      "end": 93.17699999999999,
+      "caption": "Save the decision with its note so the next review has context.",
+      "cps": 8.952678698308949
+    },
+    {
+      "id": 13,
+      "start": 93.17699999999999,
+      "end": 100.73299999999998,
+      "caption": "The public export leaves out invoice text, the salt and reviewer notes.",
+      "cps": 9.396506087877205
+    },
+    {
+      "id": 14,
+      "start": 100.73299999999998,
+      "end": 108.29999999999998,
+      "caption": "A separate private bundle is for a chosen reviewer or your own backup.",
+      "cps": 9.250693802035144
+    },
+    {
+      "id": 15,
+      "start": 108.29999999999998,
+      "end": 115.53099999999998,
+      "caption": "Earlier network checks stay in the export. A new check does not rewrite them.",
+      "cps": 10.648596321394006
+    },
+    {
+      "id": 16,
+      "start": 115.53099999999998,
+      "end": 123.17799999999997,
+      "caption": "The saved record survives a reload. The private data stays in this browser.",
+      "cps": 9.807767752059643
+    },
+    {
+      "id": 17,
+      "start": 123.17799999999997,
+      "end": 130.30299999999997,
+      "caption": "Docket makes the evidence clear before a team marks a payment record reviewed.",
+      "cps": 10.947368421052632
+    }
+  ],
+  "duration_seconds": 130.30299999999997,
+  "captured_frames_used": 591,
+  "average_source_fps": 4.535582450135455,
+  "peak_caption_cps": 11.22491932089238,
+  "captions_over_17_cps": 0,
+  "editing": "Idle gaps between scenes trimmed; no action speedups. Captions added below the product viewport. No failed action scenes were removed."
+}

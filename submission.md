@@ -1,6 +1,6 @@
 # Docket submission draft
 
-Status: draft. Public testnet registry deployment and the recorded demo must be completed before final review. Registration already exists; reuse the saved DoraHacks entry. Do not submit this draft without final approval.
+Status: draft. Public testnet registry deployment must be completed before final review. The public app and recorded demo are available. Registration already exists; reuse the saved DoraHacks entry. Do not submit this draft without final approval.
 
 ## Project name
 Docket
@@ -33,7 +33,7 @@ https://gylshaurya.github.io/docket/
 Read-only checks require no login, wallet or API key. The registry write remains blocked on free CC3 testnet gas.
 
 ## PDF and demo
-The factual project brief is in docs/Docket-project-brief.pdf. Record and verify the demo before adding its public URL. No finished video or public registry URL is claimed in this draft.
+The factual project brief is in docs/Docket-project-brief.pdf. The 130.3-second captions-only demo is available at https://github.com/gylshaurya/docket/releases/tag/demo-v1. It shows the actual public app and live read-only inclusion. It explicitly shows that registry deployment still needs gas.
 
 ## Team
 Shaurya Goyal, solo developer. Second-year engineering student in India. Reuse the confirmed platform profile for contact details and completed personal fields. Do not publish private profile data in this source file.
