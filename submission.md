@@ -14,7 +14,7 @@ Docket helps small teams review crypto payment records. It keeps an invoice expe
 ## What it does
 A payment link often ends up in a spreadsheet with little detail about what anyone checked. Docket makes those checks visible. The reviewer records the expected payee and amount, adds an Ethereum Sepolia transaction, checks its receipt and asks Creditcoin to verify its inclusion. A failed source call stays failed. A successful call that sends the wrong amount or goes to the wrong wallet does not match the invoice.
 
-Private invoice details stay in the local workspace. The public export contains transaction evidence and a salted invoice commitment. A separate private bundle contains the details a chosen reviewer needs.
+Private invoice details stay in browser storage, or the private local Python workspace. The public export contains transaction evidence and a salted invoice commitment. A separate private bundle contains the details a chosen reviewer needs.
 
 ## Attestcoin integration
 Docket uses Gluwa's actual USC SDK ProofBuilder to obtain source transaction and continuity proofs. The adapter checks the source chain key, block, index, transaction hash and full encoded transaction/receipt against the source RPC response, then calls the native BlockProver on CC3 testnet. A real read-only inclusion check has passed, and changing the proof bytes was rejected by the live verifier.
@@ -26,6 +26,11 @@ Docket does not prove an off-chain invoice is genuine, that its creator owns it,
 
 ## Repository
 https://github.com/gylshaurya/docket
+
+## Live app
+https://gylshaurya.github.io/docket/
+
+Read-only checks require no login, wallet or API key. The registry write remains blocked on free CC3 testnet gas.
 
 ## PDF and demo
 The factual project brief is in docs/Docket-project-brief.pdf. Record and verify the demo before adding its public URL. No finished video or public registry URL is claimed in this draft.

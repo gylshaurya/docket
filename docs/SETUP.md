@@ -24,4 +24,10 @@ Back up the database privately after stopping the service. The file is local and
 
 Run `forge build` and `npm run test:contracts`. Read REGISTRY.md before signing. CC3 deployment must use an encrypted project wallet or an interactive signer with free testnet tokens. Never use mainnet funds or a plaintext env private key.
 
-The registry build exists; its public deployment and first confirmed record still need verification. The local service does not provide public authentication. Judge access will use an appropriate free release path once verified, or documented local setup only if the event permits it.
+The registry build exists; its public deployment and first confirmed record still need verification. The local service does not provide public authentication. Judge access uses the free static browser workspace at https://gylshaurya.github.io/docket/. The private Python server is not deployed publicly.
+
+## Static browser workspace
+
+`npm run build:public` produces `dist/`. GitHub Pages serves this static folder without a paid backend. Browser storage stays on the current origin; localhost records and the public site have separate stores. Export a private bundle to move invoice expectations between them. Restore verifies the salted commitment and requires fresh network checks before Reviewed is available. Keep private backups outside public repositories.
+
+The public example is a real pre-existing testnet transfer with an illustrative invoice expectation. It contains no customer data. Clearing browser data deletes stored records; GitHub Pages cannot recover them.

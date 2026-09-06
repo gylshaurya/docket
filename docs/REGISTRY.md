@@ -27,3 +27,11 @@ Public deployment and a confirmed registry write have not yet been completed.
 ## Interface source
 
 The canonical verifier types come from `@gluwa/usc-contracts` 0.1.2. `calculateTxIndex` matches the published `@gluwa/usc-sdk` 0.18.0 `dist/block-prover/block_prover.json` ABI. The dependency licenses remain in place.
+
+## Browser connection and deployment recovery
+
+The browser checks chain 102031 and the published runtime hash before any registry action. It saves the exact sender, nonce, calldata, commitment and proof digest before requesting a wallet send. Unknown responses stay pending. Check registry receipt only reads the network, binds the mined transaction to that intent and checks the contract event and stored record. It does not resend. Receipt and inclusion checks pause while this action is unresolved.
+
+The project wallet is an encrypted keystore under ignored `.wallets/`, with its password in macOS Keychain. Run `node scripts/deploy-cc3.mjs` after `forge build` and after obtaining free gas from Creditcoin's official Discord faucet. It checks the chain, caps testnet gas, journals the signed hash before broadcasting and verifies exact runtime bytes before configuring the app. Re-running cannot silently send a second deployment. No real CTC or paid faucet is authorized.
+
+Current deployment status: waiting for free testnet gas. The thirdweb faucet's logged-in page requires a paid plan, so it is excluded. Discord login needs the user's existing account.

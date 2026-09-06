@@ -12,3 +12,5 @@ broadcast/
 SELECTED-IDEA.json
 PREPARATION.md
 docs/direction.md
+.wallets/
+dist/

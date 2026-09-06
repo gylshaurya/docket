@@ -4,6 +4,14 @@ Docket is a private review desk for teams checking crypto payment records. Match
 
 The current workspace supports Ethereum Sepolia and read-only CC3 verification. It does not move funds, underwrite invoices or guarantee that someone owns an invoice. Public registry deployment is a separate step still in progress.
 
+## Open the browser workspace
+
+Use [Docket online](https://gylshaurya.github.io/docket/). It runs entirely in your browser with no account, wallet or API key for read-only checks. Invoice details stay in local browser storage. Export a private backup before clearing site data, then use Restore private backup to open it again. Imported records require fresh network checks; an imported claim cannot become verified by itself.
+
+The real public transfer example is an illustrative expectation attached to a real Sepolia transfer, not a customer invoice. Public checks contact the listed Sepolia RPC, CC3 RPC and Attestcoin proof service. Those providers see the requested transaction and your network address.
+
+Build this version with `npm run build:public`. The static `dist/` folder is served by GitHub Pages. The separate Python service below is only for private local use.
+
 ## Run locally
 
 Node 20 or later and Python 3.11 or later are required. No paid API or wallet is needed for read-only checks.
@@ -45,6 +53,6 @@ A real public Sepolia transfer was checked during development, including an actu
 
 ## Privacy and limits
 
-Local invoice data is private application data, not encrypted storage. OS account access still controls who can read the database. No wallet or signing keys are accepted by the workspace. Runtime credentials, if later needed for a source RPC, belong in an existing secret store or an ignored environment, never in Git or a public export. The default public endpoints require no key. Provider availability and testnet data retention may change.
+Local invoice data is private application data, not encrypted storage. OS account access still controls who can read the database. No private signing keys are accepted by the workspace. The public browser version can request an external wallet signature only after its registry deployment is configured and verified. Runtime credentials, if later needed for a source RPC, belong in an existing secret store or an ignored environment, never in Git or a public export. The default public endpoints require no key. Provider availability and testnet data retention may change.
 
-This hackathon prototype has not had an independent security audit. Public registry, free deployment, the final recorded demo and submission approval are still pending.
+This hackathon prototype has not had an independent security audit. The public browser app is available without a backend. Registry deployment still needs free CC3 testnet gas; no registry publication is claimed. The final recorded demo and submission approval remain pending.

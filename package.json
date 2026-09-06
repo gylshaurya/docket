@@ -11,12 +11,16 @@
     "test": "python3 -m unittest discover -s tests -v",
     "test:sdk": "node --test tests/*.test.mjs",
     "test:contracts": "forge test",
-    "probe": "node scripts/probe.mjs"
+    "probe": "node scripts/probe.mjs",
+    "build:public": "node scripts/build-public.mjs"
   },
   "dependencies": {
     "@fontsource/public-sans": "5.2.6",
     "@gluwa/usc-contracts": "0.1.2",
     "@gluwa/usc-sdk": "0.18.0",
     "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
   }
 }
